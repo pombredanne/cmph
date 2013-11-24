@@ -7,7 +7,7 @@
 #endif
 
 #ifdef WIN32
-// include headers to use gettimeofday
+	#include <sys/time.h>
 #else
 	#ifdef __GNUC__
 	#include <sys/time.h>
